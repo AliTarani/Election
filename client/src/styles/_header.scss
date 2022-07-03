@@ -1,0 +1,45 @@
+.appHeader {
+  margin: 0;
+  padding: 0;
+  //background: yellow;
+  height: var(--headerHeight);
+  // display: flex;
+  //justify-content: space-between;
+  & > .menu {
+  }
+  & > .logo {
+  }
+  & > .title {
+  }
+  & > .date {
+  }
+  & > .profile {
+    & > span {
+      & > button {
+      }
+    }
+    & > .profileImage {
+      display: inline-block;
+      @include box(50px, 50px);
+      & > img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    & > .name {
+    }
+  }
+}
+.navitem {
+  margin: auto 10px;
+}
+.activeNav {
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  font-weight: 700;
+  &.prof {
+    border: none;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}

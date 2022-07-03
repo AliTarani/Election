@@ -1,0 +1,43 @@
+.App > .content {
+  direction: rtl;
+  height: calc(100vh - var(--headerHeight));
+  overflow: auto;
+}
+
+.fade {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.loader {
+  display: inline-block;
+  border: 3px solid transparent;
+  border-bottom: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid #f3f3f3; /* Light grey */
+  line-height: 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+.loader-dark {
+  display: inline-block;
+  border: 3px solid transparent;
+  border-bottom: 3px solid #4d4d4d; /* Light grey */
+  border-top: 3px solid #4d4d4d; /* Light grey */
+  line-height: 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    right: 0;
+  }
+}

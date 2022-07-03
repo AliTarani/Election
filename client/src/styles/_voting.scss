@@ -1,0 +1,45 @@
+.voting {
+  height: 100%;
+
+  & > .row {
+    height: 100%;
+  }
+}
+.votePanel {
+  padding: 20px;
+  height: 100%;
+  // height: calc(100% - 40px);
+
+  & > .wrapper {
+    // border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+
+    .choosenCondidList {
+      height: calc(100% - 40px);
+      background: white;
+      overflow: auto;
+    }
+  }
+}
+.condidates {
+  overflow: auto;
+  height: 100%;
+}
+
+.condidCard {
+  background: white;
+  border-radius: 5px;
+}
+
+.choosed {
+  background-color: rgba(10, 100, 40, 0.2);
+}
+
+@media only screen and (max-width: 767px) {
+  .votePanel,
+  .condidates {
+    height: auto;
+  }
+}

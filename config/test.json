@@ -1,0 +1,7 @@
+{
+    "database": "mongodb://localhost/academy_test",
+    "jwtPrivateKey": "test_key",
+    "EMAIL_ADDRESS": "academytest944",
+    "NODEMAILER_PASSWORD": "@c@demy_test",
+    "logfile": "test_logFile.log"
+}

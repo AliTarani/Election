@@ -1,0 +1,18 @@
+.election {
+  & > .card_sha {
+    height: calc(100% - 30px);
+  }
+}
+.addElection {
+  & > .card_sha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+    & svg {
+      margin: 10px;
+      font-size: xx-large;
+    }
+  }
+}

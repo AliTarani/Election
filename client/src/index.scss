@@ -1,0 +1,55 @@
+@import './styles/custom';
+// @import '~bootstrap/scss/bootstrap';
+@import './styles/tools';
+@import './styles/header';
+@import './styles/reset';
+@import './styles/main';
+@import './styles/voting';
+@import './styles/adminElection';
+@import './styles/general';
+@import './styles/form-login';
+@import './styles/croppie';
+
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// .JDatePicker {
+//   position: absolute !important;
+//   z-index: 1000 !important;
+//   & .current-date {
+//     border: 2px solid royalblue;
+//     border-radius: 20%;
+//   }
+
+//   & > .JC-days {
+//   }
+// }
+
+:root {
+  --headerHeight: 86px;
+}
+.popo {
+  border: 1px solid #cccccc;
+  width: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin: 0;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.hed_calendar {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.rou-bot {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}

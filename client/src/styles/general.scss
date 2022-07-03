@@ -1,0 +1,116 @@
+body {
+  line-height: 3;
+}
+//-------------------------------*header*------------------------//
+.card_sha:hover {
+  box-shadow: 0 5px 15px -5px rgba(155, 144, 144, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card_sha {
+  transition: 0.3s;
+}
+//-------------------------------*voting*------------------------//
+
+.in_lable {
+  display: none;
+}
+.pos_lab {
+  position: absolute;
+  left: -8%;
+  bottom: 85%;
+}
+.cursor_pos {
+  cursor: pointer;
+}
+.voting_card_sha {
+  box-shadow: 0 5px 15px -5px rgba(155, 144, 144, 0.5);
+}
+@media screen and (max-width: 1250px) {
+  .condidatesBtnVote {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.col_red {
+  color: #cc0000;
+}
+.vot_img_th {
+  // width: 40%;
+  height: 150px;
+}
+.img_elec {
+  width: 7%;
+  height: 10%;
+}
+
+.marg {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.dis_perso {
+  padding-right: 15px;
+}
+
+.form-check-label {
+  padding-right: 15px;
+  margin-top: 0px;
+}
+.form-check-input {
+  margin-top: 18px;
+}
+.marg-add {
+  margin-right: 15px;
+}
+.img_sdmins {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+.voted {
+  background-color: rgb(92, 184, 92, 0.2);
+  font-weight: bold;
+}
+.disvoted {
+  color: #cccccc;
+}
+.color_grreen {
+  color: #5cb85c;
+}
+.color_red {
+  color: rgb(217, 83, 79, 0.4);
+}
+.pic_prof {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.pass_chang {
+  // transition: 0.3s;
+
+  // opacity: 0;
+  // visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+#resetPass:checked ~ .pass_chang {
+  // transition: 0.5s;
+  // opacity: 1;
+  // visibility: visible;
+  height: auto;
+}
+#resetPass:checked ~ .label_prof {
+  background: #cccccc;
+  border: #cccccc;
+}
+#resetPass:checked ~ .label_prof .icon-lab {
+  transform: rotate(180deg);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

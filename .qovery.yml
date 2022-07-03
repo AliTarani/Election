@@ -1,0 +1,16 @@
+---
+application:
+  name: "election"
+  project: "electionmazust"
+  organization: "QoveryCommunity"
+  port: 3000
+databases:
+- type: "MONGODB"
+  name: "playground"
+  version: "4.2"
+routers:
+- name: "main-election"
+  routes:
+  - application_name: "election"
+    paths:
+    - "/*"
